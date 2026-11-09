@@ -5,13 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ningyuan Wu</title>
   <meta name="description" content="Ningyuan Wu is a Geographic Information Science undergraduate at China University of Geosciences (Wuhan), interested in AI agents, spatial intelligence, and multimodal understanding and generation.">
-  <meta name="theme-color" content="#fcfcfa">
+  <meta name="theme-color" content="#faf8f3">
   <link rel="canonical" href="https://ettboson.github.io/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Ningyuan Wu">
   <meta property="og:description" content="AI agents, spatial intelligence, and multimodal understanding and generation. Research and projects at China University of Geosciences (Wuhan).">
   <meta property="og:url" content="https://ettboson.github.io/">
   <link rel="icon" href="assets/favicon.svg?v=2" type="image/svg+xml">
+  <script>
+    try {
+      if (localStorage.getItem('color-theme') === 'dark') document.documentElement.dataset.theme = 'dark';
+    } catch {}
+  </script>
   <link rel="stylesheet" href="styles.css">
   <script src="site.js" defer></script>
 </head>
@@ -26,6 +31,10 @@
         <a href="#awards">Awards</a>
         <a href="#beyond-research">Beyond Research</a>
       </nav>
+      <button class="theme-toggle" type="button" role="switch" aria-label="Dark mode" aria-checked="false" hidden>
+        <svg class="theme-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M5 19l1.4-1.4M17.6 6.4 19 5"/></svg>
+        <svg class="theme-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.5 14A8.5 8.5 0 0 1 10 3.5 8.5 8.5 0 1 0 20.5 14Z"/></svg>
+      </button>
     </header>
 
     <main id="main">
@@ -142,7 +151,7 @@
         </div>
       </section>
       <footer>
-        <p>Ningyuan Wu</p>
+        <p class="footer-motto"><strong>Will Not Yield</strong></p>
         <a href="#top">Back to top</a>
       </footer>
     </main>

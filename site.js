@@ -1,4 +1,19 @@
-// The page remains fully usable without JavaScript.
+// The page content remains available without JavaScript.
+const themeToggle = document.querySelector('.theme-toggle');
+function setTheme(theme) {
+  document.documentElement.dataset.theme = theme;
+  themeToggle.setAttribute('aria-checked', String(theme === 'dark'));
+  document.querySelector('meta[name="theme-color"]').setAttribute('content',
+    getComputedStyle(document.documentElement).getPropertyValue('--color-paper').trim());
+}
+setTheme(document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light');
+themeToggle.hidden = false;
+themeToggle.addEventListener('click', () => {
+  const theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+  setTheme(theme);
+  try { localStorage.setItem('color-theme', theme); } catch {}
+});
+
 const navLinks = [...document.querySelectorAll('.section-nav a')];
 function updateNavigation() {
   const activeHash = location.hash && location.hash !== '#top' ? location.hash : '#about';
