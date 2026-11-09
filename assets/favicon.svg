@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#163f3c"/><path d="M17 46V18h6l18 19V18h6v28h-6L23 27v19z" fill="#fcfcfa"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#315b47"/>
+  <path d="M14 29 14 13Q14 10 17 12L27 21Q32 19 37 21L47 12Q50 10 50 13V29Q54 34 53 40C52 49 43 54 32 54S12 49 11 40Q10 34 14 29Z" fill="#fffefa"/>
+  <g fill="#438fbe">
+    <ellipse cx="23" cy="35" rx="4.5" ry="5"/>
+    <ellipse cx="41" cy="35" rx="4.5" ry="5"/>
+  </g>
+  <g fill="#244c66">
+    <ellipse cx="23" cy="35" rx="1.5" ry="2.5"/>
+    <ellipse cx="41" cy="35" rx="1.5" ry="2.5"/>
+  </g>
+  <path d="M30 43Q32 42 34 43L32 45Z" fill="#8c9a92"/>
+</svg>
