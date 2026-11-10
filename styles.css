@@ -105,8 +105,7 @@ figcaption { margin-top: var(--space-xs); font-size: 14px; line-height: 1.6; col
 .life-gallery figure { margin: 0; }
 .life-gallery img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 12px; transition: transform 220ms ease; }
 footer { display: flex; justify-content: space-between; gap: var(--space-lg); margin-top: var(--space-72); padding: var(--space-lg) 0 var(--space-32); border-top: 1px solid var(--color-rule); font-size: 14px; color: var(--color-muted); }
-.footer-motto { color: var(--color-ink); font-size: 16px; }
-.footer-motto strong { font-weight: 700; }
+.footer-motto { color: var(--color-ink); font-size: 16px; font-weight: 400; opacity: 0.78; }
 @media (max-width: 900px) {
   .section-nav { gap: var(--space-xs) var(--space-md); }
   .about-hero { gap: var(--space-32); }
