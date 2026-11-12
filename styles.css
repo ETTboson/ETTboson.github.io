@@ -82,8 +82,7 @@ h1, h2, h3 { color: var(--color-ink); text-wrap: pretty; }
 .project-heading h3 { font-size: 1.75rem; }
 .project .meta { margin-top: var(--space-sm); }
 figure { margin: var(--space-lg) 0; }
-.figure-link { display: block; border: 1px solid var(--color-rule); border-radius: 12px; overflow: clip; background: var(--color-paper-2); }
-.figure-link img { width: 100%; height: auto; }
+.project-image { display: block; width: 100%; height: auto; border: 1px solid var(--color-rule); border-radius: 12px; background: var(--color-paper-2); }
 figcaption { margin-top: var(--space-xs); font-size: 14px; line-height: 1.6; color: var(--color-muted); }
 .project figure { margin-bottom: var(--space-sm); }
 .project figcaption { max-width: 74ch; margin-top: var(--space-md); }
